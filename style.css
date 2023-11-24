@@ -51,10 +51,12 @@ body {
 .card {
   aspect-ratio: 1 1;
 }
+.card .contruction {
+  background: #222222;
+}
 .card .comson {
-  width: 100%;
-  height: 100%;
-  background-color: #222222;
+  max-width: 50%;
+  height: auto;
 }
 @media (max-width: 767px) {
   .navbar-brand .hide-on-mobile {
